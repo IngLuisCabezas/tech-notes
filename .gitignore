@@ -1,0 +1,25 @@
+# Secrets and credentials
+*.pem
+*.ppk
+*.key
+id_rsa*
+key.json
+*-key.json
+credentials*.json
+.env
+.env.*
+*.env
+*.tfvars
+*.kubeconfig
+kubeconfig
+
+# Private scratch files
+_private/
+scratch/
+*.local.md
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
